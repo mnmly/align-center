@@ -1,4 +1,3 @@
-
 # align-center
 
   Center align block of multiline text
@@ -21,7 +20,7 @@ var out = align(text, 60);
 
 Converting the following:
 
-```txt
+```no-highlight
 Project: Center-align block of text
 
 --
@@ -34,7 +33,7 @@ On March 15th, 2014.
 
 to this:
 
-```txt
+```no-highlight
                      Project: Center-align block of text
 
                                       --
