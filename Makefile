@@ -8,7 +8,7 @@ components: component.json
 clean:
 	rm -fr build components template.js
 
-test:
-	@./node_modules/bin/mocha
+test: index.js
+	@./node_modules/.bin/mocha
 
 .PHONY: clean

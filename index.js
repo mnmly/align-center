@@ -31,7 +31,7 @@ function align(text, col) {
       throw Error('Number of charactors exceeds the number of `col`');
     }
 
-    while(--offset) line = ' ' + line;
+    line = new Array(offset).join(' ') + line;
 
     return line;
 
