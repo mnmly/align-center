@@ -1,0 +1,14 @@
+{
+  "name": "align-center",
+  "version": "0.0.0",
+  "description": "Center align block of multiline text",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "",
+  "license": "MIT"
+}
